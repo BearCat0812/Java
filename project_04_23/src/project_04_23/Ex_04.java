@@ -148,6 +148,7 @@ public class Ex_04 {
 		
 		/* 4. 문자를 입력해서 문자열 배열에 넣고 사용자가 입력한 문자가 배열에 어디 위치에 존재하는지와 개수를 출력하기 */
 		/* ex) 문자열 application 일 때 사용자 입력문자 i인 경우 i가 존재하는 위치 및 i의 개수 출력 */
+		/* split(), equals()을 사용한 방법 */	
 //		Scanner sc = new Scanner(System.in);
 //		String word = null;
 //		String[] alpha = new String[1];
@@ -170,6 +171,31 @@ public class Ex_04 {
 //			}
 //		}
 //		System.out.print(alpha[0]+" 총 "+n+"개 발견했습니다.");
+		
+		/* str.charAt(0) = 'a', str.charAt(1) = 'p'를 사용한 방법 */
+//		Scanner scan = new Scanner(System.in);
+//		System.out.print("문자를 입력하세요 : ");
+//		String str = scan.next();
+//		
+//		char[] arr = new char[str.length()];
+//		
+//		for(int i=0;i<arr.length;i++) {
+//			arr[i]=str.charAt(i);
+//		}
+//		System.out.print("찾는 문자를 입력하세요 : ");
+//		String ch = scan.next();
+//		char a = ch.charAt(0);
+//		int count = 0;
+//		
+//		System.out.println(str+"에 "+a+"가 존재하는 위치: ");
+//		for(int i=0;i<arr.length;i++) {
+//			if(arr[i]==a) {
+//				System.out.print(i+" ");
+//				count++;
+//			}
+//		}
+//		System.out.println();
+//		System.out.println(a+" 개수: "+count);
 		
 		/* 5. 사용자가 배열의 길이를 직접 입력하여 배열을 선언하고 배열의 값을 사용자가 입력하여 배열 전체의 총 합 출력하기 */
 		/* ex) 3 입력 시 3 크기 배열 , 4 입력 시 4 크기 배열 */

@@ -17,34 +17,34 @@ public class Ex_01 {
 		/* 3. 자바의 예약어를 사용할 수 없다. */
 		
 		//* 한줄 주석: //, 문단 주석 : /*문단*/, 전체 드래그+ (ctrl+shift+/) */
-		int num = 1;
-		System.out.print(num);
+//		int num = 1;
+//		System.out.print(num);
 		
 		/* 2) 문자형 데이터: char(문자 하나), String(문자열) */
-		char ch = 'a'; // char는 ''(홀따옴표)를 사용
-		String str = "abc"; // String은 ""(쌍따옴표)를 사용
-
-		System.out.println(ch);
-		System.out.println(str);
-		System.out.println("Hello Java");
-		System.out.println("str: "+str);
+//		char ch = 'a'; // char는 ''(홀따옴표)를 사용
+//		String str = "abc"; // String은 ""(쌍따옴표)를 사용
+//
+//		System.out.println(ch);
+//		System.out.println(str);
+//		System.out.println("Hello Java");
+//		System.out.println("str: "+str);
 		
 		/* 입력: Scanner, 문자열(String): scan.next()한 단어, scan.nextline()한 줄 */
 		/* 정수(int): scan.nextInt() */
-		Scanner scan = new Scanner(System.in);
-		
-		int number = scan.nextInt();
-		
-		System.out.println("입력한 숫자: "+number);
-		
-		System.out.print("이름을 입력하세요: ");
-		String name = scan.next();
-		System.out.println("이름: "+name);
-		System.out.print("나이를 입력하세요: ");
-		int age = scan.nextInt();
-		System.out.print("나이: "+age);
-		
-		scan.close();
+//		Scanner scan = new Scanner(System.in);
+//		
+//		int number = scan.nextInt();
+//		
+//		System.out.println("입력한 숫자: "+number);
+//		
+//		System.out.print("이름을 입력하세요: ");
+//		String name = scan.next();
+//		System.out.println("이름: "+name);
+//		System.out.print("나이를 입력하세요: ");
+//		int age = scan.nextInt();
+//		System.out.print("나이: "+age);
+//		
+//		scan.close();
 	}
 
 }
