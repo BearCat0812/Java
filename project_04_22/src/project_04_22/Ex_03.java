@@ -3,6 +3,7 @@ package project_04_22;
 public class Ex_03 {
 
 	public static void main(String[] args) {
+		
 		/* 조건문 if(조건){조건이 참인 경우}else{조건이 거짓인 경우} */
 		
 //		int x = 5;
@@ -14,7 +15,6 @@ public class Ex_03 {
 //			System.out.println("x가 5보다 작습니다.");
 //		}
 		 
-		
 		/* 반복문: 특정 코드를 반복 실행 */
 		/* for, foreach, while, do-while */
 		/* foreach: 배열이나 컬렉션타입에 사용 */
@@ -33,21 +33,17 @@ public class Ex_03 {
 //			System.out.println("Hello Java");
 //			n++;
 //		}
-		 
 		
 		/* do-while */
 		/* 최소 한번은 반복할 코드를 실행 */
-		
 		
 //		int n = 0;
 //		do {
 //			System.out.println("Hello Java!!");
 //		}while (n>0);
-		 
 		
 		/* 2중 반복문 */
 		/* 반복문{반복문{반복할 코드}} */
-		
 		
 //		for(int i = 0; i < 3; i++) {
 //			for(int j = 0; j < 3; j++) {
@@ -73,11 +69,9 @@ public class Ex_03 {
 //			}
 //		}
 		 
-		
 		/* 2중 반복문 이용해서 별 찍기 */
 		/* 줄의 수 = i가 담당 */
 		/* 별의 수 = j가 담당 */
-		
 		
 //		for(int i=0; i<5; i++) {
 //			for(int j=0;j<5;j++) {
@@ -96,6 +90,7 @@ public class Ex_03 {
 //		}
 		
 		/* 하나씩 증가하는 별 출력 (모범답안) */
+		
 //		for(int i=0 ; i<5 ; i++) {
 //			for(int j=0 ; j<=i ; j++) {
 //				System.out.print("*");

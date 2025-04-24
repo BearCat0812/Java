@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ex_04 {
 
 	public static void main(String[] args) {
+		
 //		int[] nums = new int[5];
 //		nums[0] = 1;
 //		nums[1] = 2;
@@ -21,6 +22,7 @@ public class Ex_04 {
 //		}
 		
 		/*1. int[] scores = {70,85,90,100,65}; 의 총합과 평균 구하기 */
+		
 //		int[] scores = {70,85,90,100,65};
 //		int sum = 0;
 //		int avg = 0;
@@ -34,6 +36,7 @@ public class Ex_04 {
 //		System.out.println("평균 : "+avg);
 //		
 		/* 2. 사용자에게 정수 6개를 입력받아 배열에 저장하고 짝수만 출력하기 */
+		
 //		Scanner sc = new Scanner(System.in);
 //		int numbers[] = new int[6];
 //		
@@ -50,6 +53,7 @@ public class Ex_04 {
 //		}
 		
 		/* 이차원 배열 */
+		
 //		int[][] numbers = new int[3][3];
 //		
 //		for(int i=0 ; i<numbers.length ; i++) {
@@ -60,6 +64,7 @@ public class Ex_04 {
 		
 		/* 1. int[][] arr = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}} 행의 합, 열의 합 구하기 */
 		/* arr[0][0] + arr[0][1] + arr[0][2] */
+		
 //		int[][] arr = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
 //		int row_sum = 0;
 //		int col_sum = 0;
@@ -148,7 +153,9 @@ public class Ex_04 {
 		
 		/* 4. 문자를 입력해서 문자열 배열에 넣고 사용자가 입력한 문자가 배열에 어디 위치에 존재하는지와 개수를 출력하기 */
 		/* ex) 문자열 application 일 때 사용자 입력문자 i인 경우 i가 존재하는 위치 및 i의 개수 출력 */
-		/* split(), equals()을 사용한 방법 */	
+		
+		/* split(), equals()을 사용한 방법 */
+		
 //		Scanner sc = new Scanner(System.in);
 //		String word = null;
 //		String[] alpha = new String[1];
@@ -173,6 +180,7 @@ public class Ex_04 {
 //		System.out.print(alpha[0]+" 총 "+n+"개 발견했습니다.");
 		
 		/* str.charAt(0) = 'a', str.charAt(1) = 'p'를 사용한 방법 */
+		
 //		Scanner scan = new Scanner(System.in);
 //		System.out.print("문자를 입력하세요 : ");
 //		String str = scan.next();
