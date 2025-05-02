@@ -420,6 +420,8 @@ public class Ex_Question {
 
 		/* 19. 1101이란 2진수를 10진수로, 13이란 10진수를 2진수로 변환하는 코드를 작성하시오. */
 
+		/* 본인 작성 */
+		
 //		int num1 = 1101;
 //		int num2 = 13;
 //
@@ -451,6 +453,36 @@ public class Ex_Question {
 //		System.out.print(num2 / 2 / 2 % 2);
 //		System.out.print(num2 / 2 % 2);
 //		System.out.print(num2 % 2);
+
+		/* 모범 답안 */
+		
+		/* 10진수 => 2진수 */
+
+//		int num = 13;
+//
+//		int[] arr = new int[4];
+//
+//		for (int i = 0; i < arr.length; i++) {
+//			arr[arr.length - 1 - i] = num % 2;
+//			num = num / 2;
+//		}
+//		for (int i = 0; i < arr.length; i++) {
+//			System.out.print(arr[i] + " ");
+//		}
+//
+//		System.out.println();
+//
+//		/* 2진수 => 10진수 */
+//
+//		int su = 1;
+//		int sum = 0;
+//
+//		for (int i = 0; i < arr.length; i++) {
+//			sum += arr[arr.length - 1 - i] * su;
+//			su *= 2;
+//		}
+//
+//		System.out.println(sum);
 
 	}
 
