@@ -149,16 +149,16 @@ public class Ex_07 {
 //		}
 //		System.out.println(arr.reversed());
 
-//		int six = 6;
-//
-//		String bi = "";
-//
-//		while (six > 0) {
-//			bi = (six % 2) + bi;
-//			six = six / 2;
-//		}
-//
-//		System.out.println(bi);
+		int num = 6;
+
+		String bi = "";
+
+		while (num > 0) {
+			bi = (num % 2) + bi;
+			num = num / 2;
+		}
+
+		System.out.println(bi);
 //
 //		int a = (((six / 2) / 2) % 2);
 //		int b = ((six / 2) % 2);
@@ -233,7 +233,7 @@ public class Ex_07 {
 //		} else {
 //			System.out.println("윤년이 아닙니다.");
 //		}
-
+		
 	}
 
 }
